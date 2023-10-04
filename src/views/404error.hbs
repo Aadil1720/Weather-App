@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{> headerlinks}}
+</head>
+
+<body>
+    {{>navbar}}
+    <!--main-header-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure class="errImg">
+                            <img src="./images/404.png" class="img-fluid" alt="Aadil">
+                        </figure>
+                        <p>Welcome to Aadil Technical World</p>
+                        <h1>{{errorMsg}}</h1>
+                        <a href="/"><button>Go Back</button></a>
+                    </div>
+                </div>
+            </div>
+            <!--right side div-->
+        </div>
+    </div>
+    <!--footer section-->
+    {{>footer}}
+</body>
+
+</html>
